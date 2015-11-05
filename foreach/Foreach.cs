@@ -17,7 +17,11 @@ namespace Vsite.CSharp
             List<double> dablovi = new List<double>();
             dablovi.Add(3.14);
             // TODO: Dodati još 4 različita broja te pozvati metodu Ispiši. Rezultat ispisa prekopirati u datoteku "Foreach.txt" pridruženu projektu
-
+            dablovi.Add(3.14);
+            dablovi.Add(3.124242);
+            dablovi.Add(2232.34242);
+            dablovi.Add(123131.2);
+            Ispiši(dablovi);
 
         }
 
