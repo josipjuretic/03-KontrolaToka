@@ -16,11 +16,15 @@ namespace Vsite.CSharp
                 Console.WriteLine(slučajniBroj);
 
                 // TODO: ako je broj paran, ne dodaje se (tj. treba se vratiti na početak petlje)
+             
+                if (slučajniBroj % 2 == 0)
+                    continue;
 
-
-                // TODO: ako je broj dijeljiv s 12, tada treba prekinuti petlju
-
-
+               // TODO: ako je broj dijeljiv s 12, tada treba prekinuti petlju
+                
+                else
+                    if (slučajniBroj % 12 == 0)
+                        break;
 
                 Console.WriteLine("{0} + {1}", zbroj + slučajniBroj);
                 zbroj += slučajniBroj;

@@ -1,1 +1,14 @@
-﻿
+﻿7
+9
+System.FormatException occurred
+  HResult=-2146233033
+  Message=Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  Source=mscorlib
+  StackTrace:
+       at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+       at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+       at System.IO.TextWriter.WriteLine(String format, Object arg0)
+       at System.IO.TextWriter.SyncTextWriter.WriteLine(String format, Object arg0)
+       at System.Console.WriteLine(String format, Object arg0)
+       at Vsite.CSharp.NaredbeBreakContinue.Main(String[] args) in c:\Users\Zeus\Documents\GitHub\03-KontrolaToka\NaredbeBreakContinue\NaredbeBreakContinue.cs:line 29
+  InnerException: 
