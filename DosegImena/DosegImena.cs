@@ -19,13 +19,14 @@ namespace Vsite.CSharp
             // Ispisati vrijednosti lokalne varijable a
 
             Console.WriteLine(a);
+
             // Ispisati vrijednost člana klase a
 
             Console.WriteLine(this.a);
             {
                 // Definirati novu varijablu a unutar ovog bloka i ispisati njenu vrijednost
-                //string a = "varijabla unutar bloka";
-
+               // string a = "varijabla unutar bloka";
+               Console.WriteLine(a);
             }
         }
 
